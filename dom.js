@@ -14,43 +14,44 @@ const element = document.getElementById('heading')
 element.style.textAlign = 'center'
 element.style.textTransform = 'uppercase';
 
-
+// fruits 
 const fruit = document.getElementById('fruList')
 const img = document.getElementById('img');
      img.style.marginLeft = '36%'; 
      img.style.marginRight = 'auto'
 
-// const newFruit = document.createElement('li')
-// const fruitNode = document.createTextNode('New Item')
-const image = document.createElement('img');
-image.src = 'images/pineapple-removebg-preview.png';
-const parentNode = document.getElementById('your-parent-id');
-fruit.appendChild(image);
-
+const newFruit = document.createElement('li')
+const fruitNode = document.createTextNode('New Item')
 newFruit.append(fruitNode)
 fruit.appendChild(newFruit)
 newFruit.textContent = 'Pineapple';
-let fruitImage = {
-    'Pineapple' :''
-}
+newFruit.style.marginLeft = '90%'
+newFruit.style.top = '105%'
+newFruit.style.position = 'absolute'
 
+const image = document.createElement('img');
+image.src = 'images/pineapple-removebg-preview.png';
+image.style.border = '1px solid green'
+fruit.appendChild(image)
+image.style.width = '8vw'
+image.style.marginLeft = '40px'
+image.style.borderRadius = '20px'
+
+
+// vegetables
 const vegeElement = document.getElementById('vegeHeading')
-
 vegeElement.style.textTransform = 'uppercase';
 vegeElement.style.textAlign = 'center'
-
 const vegetables = document.getElementById('vegeImage')
 vegetables.style.marginRight = 'auto'
 vegetables.style.marginLeft = '36%'
 
-const onion = document.getElementById('onion')
-onionImage = document.createElement('img')
-onionImage.src = ''
-onion.append(onionImage);
+const vegetable = document.getElementById('vegeList')
+const newVegetable = document.createElement('ul')
+const vegetableNode = document.createTextNode('new vegies')
+newVegetable.appendChild('vegetableNode')
+vegetableNode.textContent = 'spinach'
 
-const tomato = document.getElementById('tomato')
-tomatoImage = document.createElement('img')
-tomatoImage.src = 'https://unsplash.com/photos/red-tomatoes-on-brown-wooden-table-eb26eV-ys_k'
 
 
 

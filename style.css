@@ -70,3 +70,53 @@ footer{
  ul {
     list-style-type: none;
 }
+
+@media only screen and (max-width:430px){
+.nav-bar{
+    width: 100%;
+}
+#title{
+        font-size: 20%;
+    }
+#img{
+    width: 40%;
+    margin-right: 50px;
+}
+  #mango{
+    width: 70px;
+    border: 1px solid green;
+     padding: 12px 12px 12px 12px;
+       border-radius: 20px;
+}
+#banana{
+    width: 70px;
+    border: 1px solid green;
+    padding: 12px 12px 32px 22px;
+      border-radius: 20px;
+}
+
+#melon{
+    width: 70px;
+    border: 1px solid green;
+     padding: 12px 12px 12px 12px;
+     border-radius: 20px;
+}
+#vegeList{
+    display: flex;
+    justify-content: space-between 2cm;
+    list-style: none;
+}
+#onion{
+    width: 60%;
+}
+#kale{
+    width: 60%;
+
+}
+#tomato{
+    width: 60%;
+} 
+#vegeImage{
+    width: 50%;
+} 
+}
