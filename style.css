@@ -19,8 +19,54 @@ h3{
 }
 #fruList{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between ;
+    list-style: none;
 }
 #mango{
-    width: 80px;
+    width: 120px;
+    border: 1px solid green;
+     padding: 22px 22px 22px 22px;
+       border-radius: 20px;
+}
+#banana{
+    width: 120px;
+    border: 1px solid green;
+    padding: 22px 22px 62px 22px;
+      border-radius: 20px;
+}
+
+#melon{
+    width: 120px;
+    border: 1px solid green;
+     padding: 22px 22px 22px 22px;
+     border-radius: 20px;
+}
+#vegeList{
+    display: flex;
+    justify-content: space-between 2cm;
+    list-style: none;
+}
+#onion{
+    width: 60%;
+}
+#kale{
+    width: 60%;
+
+}
+#tomato{
+    width: 60%;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+#footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+ ul {
+    list-style-type: none;
 }
